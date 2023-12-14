@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$headig_1:25px;
+h1{
+    font-size: $headig_1;
+}
+nav{
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            a{
+                text-decoration: none;
+                font-size: 40px;
+                padding: 10px 20px;
+                
+            }
+            a:hover{
+                background-color: black;
+                color: #fff;
+                transition: 5s;
+            }
+        }
+    }
+}
