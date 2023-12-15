@@ -1,10 +1,26 @@
-.live-btn{
-    letter-spacing: .3rem;
+.live-btn {
+    letter-spacing: .2rem;
 }
-.banner{
-    background:url("../img/sample-header1.jpg") no-repeat center top/cover;
+
+.banner {
+    background: url("../img/sample-header1.jpg") no-repeat center top/cover;
 }
-.audio{
+
+.audio {
     background-color: navajowhite;
     border: 1px solid #000000;
+}
+
+.letes {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/latest-news.jpg") no-repeat center/cover;
+}
+
+.img-container a i{
+        display: none;
+}
+.img-container a:hover{
+     i{
+        display: block;
+        color: #CC00AA;
+     }
 }

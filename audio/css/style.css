@@ -1,5 +1,5 @@
 .live-btn {
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
 }
 
 .banner {
@@ -9,4 +9,17 @@
 .audio {
   background-color: navajowhite;
   border: 1px solid #000000;
+}
+
+.letes {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/latest-news.jpg") no-repeat center/cover;
+}
+
+.img-container a i {
+  display: none;
+}
+
+.img-container a:hover i {
+  display: block;
+  color: #CC00AA;
 }
