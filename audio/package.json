@@ -1,0 +1,17 @@
+{
+  "name": "audio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "audio":"sass --no-source-map scss:css",
+    "watch":"sass --no-source-map -w scss:css"
+  },
+  "author": "masud",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.2",
+    "sass": "^1.69.5"
+  }
+}

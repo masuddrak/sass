@@ -1,0 +1,22 @@
+// custom font family
+$font-family-sans-serif: 'Oswald', sans-serif;
+// color
+// scss-docs-start color-variables
+$blue:    #FFFFFF !default;// $primary:       $blue !default;
+$green:   #CC00AA !default;// $success:       $green !default;
+$cyan:    #262626 !default;// $info:          $cyan !default;
+// scss-docs-end color-variables
+
+// // scss-docs-start theme-color-variables
+// $primary:       $blue !default;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-900 !default;
+// // scss-docs-end theme-color-variables
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+

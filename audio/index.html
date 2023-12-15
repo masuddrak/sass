@@ -1,11 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio</title>
+    <!-- ui kits -->
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/css/uikit.min.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap" rel="stylesheet">
+    <!-- css linking -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary py-4 fixed-top">
+            <div class="container ">
+                <a class="navbar-brand" href="#">
+                    CATS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav align-items-center me-auto mb-2 mb-lg-0 text-info opacity-75">
+                        <li class="nav-item ">
+                            <hr class="border-2  mx-4" style="width: 30px;">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Epsodes</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="icons-container d-flex align-items-center">
+                        <a href="#"><i class="bi bi-facebook px-2  icon-custom"></i></a>
+                        <a href="#"><i class="bi bi-google-play px-2  icon-custom"></i></a>
+                        <a href="#"><i class="bi bi-twitter px-2  icon-custom"></i></a>
+                        <a href="#"><i class="bi bi-cloud px-2  icon-custom"></i></a>
+                        <a href="#"><i class="bi bi-youtube px-2  icon-custom"></i></a>
+                        <!-- <i class="bi bi-arrows fs-5 px-5"></i> -->
+                        <hr class="border-2  mx-4" style="width: 30px;">
+                        <button class="btn btn-outline-info fw-normal live-btn">
+                            <i class="bi bi-arrow-up-square"></i> LIVE NOW</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- banner -->
+        <section class="banner py-5">
+            <div class="container py-5">
+                <div class="row py-5 text-primary align-items-center">
+                    <div class="col-7">
+                        <h5 class="live-btn fw-light">FEATURED EPISODE</h5>
+                        <h1 class="live-btn fw-bold">A SHORT WAVE GOODBYE FOR MY GOOD FRIEND FRANCISCO</h1>
+                        <figure class="mt-5">
+                            <audio class="w-100 " controls src="./audio/preview1.mp3">
+                                <a href="/audio/preview1.mp3"> Download audio </a>
+                            </audio>
+                        </figure>
+
+                        <btn-container class="mt-5">
+                            <div class="mt-5 d-flex align-items-center">
+                                <button class="btn btn-success fw-normal live-btn">
+                                    <i class="bi bi-apple "></i> ITUNES</button>
+
+                                <button class="btn btn-outline-primary fw-normal live-btn mx-3">
+                                    <i class="bi bi-arrow-up-square"></i> GOOGLE PLAY</button>
+
+                                <button class="btn btn-outline-primary  fw-normal live-btn">
+                                    <i class="bi bi-apple"></i> RSS FEED</button>
+                            </div>
+                        </btn-container>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- episodes -->
+        <section class="Episodes container my-5">
+            <h2 class="text-success mb-0 mt-2"><span class="text-info">Browse</span> Episodes</h2>
+            <div class=" d-flex align-items-center">
+                <hr class="border border-success border-1 opacity-75  w-25">
+                </hr>
+                <hr class="opacity-75 w-100 d-inline-block">
+                </hr>
+            </div>
+            <div class="row">
+                <div class="card mb-3 border-0  shadow" >
+                    <div class="row d-flex align-items-center">
+                      <div class="col-2">
+                        <img src="./img/sample-post-square1.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-10">
+                        <div class="card-body">
+                            <p>Lession-1 // 13 September 2023 </p>
+                          <h5 class="card-title fw-bold fs-3"><i class="bi bi-music-note-beamed pe-4"></i>A short wave goodbye for my good friend Francisco</h5>
+                          <p class="fw-normal  small">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                          <figure class="mt-5">
+                            <audio class="w-100 " controls src="./audio/preview1.mp3">
+                                <!-- <a href="/audio/preview1.mp3"> Download audio </a> -->
+                            </audio>
+                        </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3 border-0  shadow" >
+                    <div class="row d-flex align-items-center">
+                      <div class="col-2">
+                        <img src="./img/sample-post-square2.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-10">
+                        <div class="card-body">
+                            <p>Lession-1 // 13 September 2023 </p>
+                          <h5 class="card-title fw-bold fs-3"><i class="bi bi-music-note-beamed pe-4"></i>Red hat craftswoman glazing handmade white china pot</h5>
+                          <p class="fw-normal  small">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                          <figure class="mt-5">
+                            <audio class="w-100 " controls src="./audio/preview1.mp3">
+                                <!-- <a href="/audio/preview1.mp3"> Download audio </a> -->
+                            </audio>
+                        </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card mb-3 border-0  shadow" >
+                    <div class="row d-flex align-items-center">
+                      <div class="col-2">
+                        <img src="./img/sample-post-square3.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-10">
+                        <div class="card-body">
+                            <p>Lession-1 // 13 September 2023 </p>
+                          <h5 class="card-title fw-bold fs-3"><i class="bi bi-music-note-beamed pe-4"></i>Lemon juice for the next generations to come</h5>
+                          <p class="fw-normal  small">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                          <figure class="mt-5">
+                            <audio class="w-100 " controls src="./audio/preview1.mp3">
+                                <!-- <a href="/audio/preview1.mp3"> Download audio </a> -->
+                            </audio>
+                        </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="text-center mt-3"> 
+                <button class="btn btn-info px-3 live-btn border-0 rounded-0"><i class="bi bi-three-dots"></i>BROWSE MORE</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- ui kits -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit-icons.min.js"></script>
+    <!-- jqurey plagins -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/style.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,12 @@
+.live-btn {
+  letter-spacing: 0.3rem;
+}
+
+.banner {
+  background: url("../img/sample-header1.jpg") no-repeat center top/cover;
+}
+
+.audio {
+  background-color: navajowhite;
+  border: 1px solid #000000;
+}
