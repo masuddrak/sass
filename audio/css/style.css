@@ -23,3 +23,7 @@
   display: block;
   color: #CC00AA;
 }
+
+.week {
+  background: linear-gradient(rgba(56, 54, 54, 0.9), rgba(8, 8, 8, 0.9)), url("../img/sample-sales.jpg") no-repeat center/cover;
+}
