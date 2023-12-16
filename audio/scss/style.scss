@@ -1,7 +1,8 @@
+// common btn
 .live-btn {
     letter-spacing: .2rem;
 }
-
+// banner 
 .banner {
     background: url("../img/sample-header1.jpg") no-repeat center top/cover;
 }
@@ -10,7 +11,7 @@
     background-color: navajowhite;
     border: 1px solid #000000;
 }
-
+// letes section
 .letes {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/latest-news.jpg") no-repeat center/cover;
 }
@@ -24,6 +25,7 @@
         color: #CC00AA;
      }
 }
+// week section
 .week {
     background: linear-gradient(rgba(56, 54, 54, 0.9), rgba(8, 8, 8, 0.9)), url("../img/sample-sales.jpg") no-repeat center/cover;
 }

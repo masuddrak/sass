@@ -71,8 +71,8 @@
     <main>
         <!-- banner -->
         <section class="banner py-5">
-            <div class="container py-5">
-                <div class="row py-5 text-primary align-items-center">
+            <div class="container py-5 ">
+                <div class="row py-5 text-primary align-items-center ">
                     <div class="col-7">
                         <h5 class="live-btn fw-light">FEATURED EPISODE</h5>
                         <h1 class="live-btn fw-bold">A SHORT WAVE GOODBYE FOR MY GOOD FRIEND FRANCISCO</h1>
@@ -83,14 +83,14 @@
                         </figure>
 
                         <btn-container class="mt-5">
-                            <div class="mt-5 d-flex align-items-center">
-                                <button class="btn btn-success fw-normal live-btn">
+                            <div class="mt-5 row g-3 align-items-center justify-content-between">
+                                <button class="btn btn-success fw-normal live-btn d-block col-md-5 col-lg-3">
                                     <i class="bi bi-apple "></i> ITUNES</button>
 
-                                <button class="btn btn-outline-primary fw-normal live-btn mx-3">
+                                <button class="btn btn-outline-primary d-block fw-normal live-btn col-md-5 col-lg-3">
                                     <i class="bi bi-arrow-up-square"></i> GOOGLE PLAY</button>
 
-                                <button class="btn btn-outline-primary  fw-normal live-btn">
+                                <button class="btn btn-outline-primary d-block  fw-normal live-btn col-md-5 col-lg-3">
                                     <i class="bi bi-apple"></i> RSS FEED</button>
                             </div>
                         </btn-container>
@@ -98,6 +98,7 @@
                 </div>
             </div>
         </section>
+
         <!-- episodes -->
         <section class="Episodes container my-5">
             <h2 class="text-success mb-0 mt-2"><span class="text-info">Browse</span> Episodes</h2>
@@ -109,11 +110,11 @@
             </div>
             <div class="row">
                 <div class="card mb-3 border-0  shadow">
-                    <div class="row d-flex align-items-center">
-                        <div class="col-2">
-                            <img src="./img/sample-post-square1.jpg" class="img-fluid rounded-start" alt="...">
+                    <div class="row  align-items-center justify-content-between">
+                        <div class="col-8 col-md-2">
+                            <img src="./img/sample-post-square1.jpg" class="img-fluid  rounded-start" alt="...">
                         </div>
-                        <div class="col-10">
+                        <div class="col-8 col-md-10">
                             <div class="card-body">
                                 <p>Lession-1 // 13 September 2023 </p>
                                 <h5 class="card-title fw-bold fs-3"><i class="bi bi-music-note-beamed pe-4"></i>A short
@@ -127,7 +128,7 @@
                                     sequi nesciunt.</p>
                                 <figure class="mt-5">
                                     <audio class="w-100 " controls src="./audio/preview1.mp3">
-                                        <!-- <a href="/audio/preview1.mp3"> Download audio </a> -->
+                                        <a href="/audio/preview1.mp3"> Download audio </a>
                                     </audio>
                                 </figure>
                             </div>
@@ -136,10 +137,10 @@
                 </div>
                 <div class="card mb-3 border-0  shadow">
                     <div class="row d-flex align-items-center">
-                        <div class="col-2">
+                        <div class="col-8 col-md-2">
                             <img src="./img/sample-post-square2.jpg" class="img-fluid rounded-start" alt="...">
                         </div>
-                        <div class="col-10">
+                        <div class="col-8 col-md-10">
                             <div class="card-body">
                                 <p>Lession-1 // 13 September 2023 </p>
                                 <h5 class="card-title fw-bold fs-3"><i class="bi bi-music-note-beamed pe-4"></i>Red hat
@@ -153,7 +154,7 @@
                                     sequi nesciunt.</p>
                                 <figure class="mt-5">
                                     <audio class="w-100 " controls src="./audio/preview1.mp3">
-                                        <!-- <a href="/audio/preview1.mp3"> Download audio </a> -->
+                                        <a href="/audio/preview1.mp3"> Download audio </a>
                                     </audio>
                                 </figure>
                             </div>
@@ -162,10 +163,10 @@
                 </div>
                 <div class="card mb-3 border-0  shadow">
                     <div class="row d-flex align-items-center">
-                        <div class="col-2">
+                        <div class="col-8 col-md-2">
                             <img src="./img/sample-post-square3.jpg" class="img-fluid rounded-start" alt="...">
                         </div>
-                        <div class="col-10">
+                        <div class="col-8 col-md-10">
                             <div class="card-body">
                                 <p>Lession-1 // 13 September 2023 </p>
                                 <h5 class="card-title fw-bold fs-3"><i class="bi bi-music-note-beamed pe-4"></i>Lemon
@@ -179,7 +180,7 @@
                                     sequi nesciunt.</p>
                                 <figure class="mt-5">
                                     <audio class="w-100 " controls src="./audio/preview1.mp3">
-                                        <!-- <a href="/audio/preview1.mp3"> Download audio </a> -->
+                                        <a href="/audio/preview1.mp3"> Download audio </a>
                                     </audio>
                                 </figure>
                             </div>
@@ -192,6 +193,7 @@
                     MORE</button>
             </div>
         </section>
+
         <!-- letest -->
         <section class="letes my-5 py-5">
             <div class="container">
@@ -203,7 +205,7 @@
                     </hr>
                 </div>
                 <div class="row">
-                    <div class="text-white mt-4 col-4">
+                    <div class="text-white mt-4 col-sm-6  col-md-4">
                         <button class="btn btn-success fw-normal px-3 live-btn">
                             PODCAST</button>
                         <h5 class="mt-3 fw-light live-btn">Lessons learned from the big guys</h5>
@@ -213,7 +215,7 @@
                         <a href="#" class="text-decoration-none align-items-center opacity-50">Learn more <i
                                 class="bi bi-arrow-right "></i></a>
                     </div>
-                    <div class="text-white mt-4 col-4">
+                    <div class="text-white mt-4 col-sm-6 col-md-4">
                         <button class="btn btn-success fw-normal px-3 live-btn">
                             PODCAST</button>
                         <h5 class="mt-3 fw-light live-btn">Yes, let’s start a great project</h5>
@@ -223,7 +225,7 @@
                         <a href="#" class="text-decoration-none align-items-center opacity-50">Learn more <i
                                 class="bi bi-arrow-right "></i></a>
                     </div>
-                    <div class="text-white mt-4 col-4">
+                    <div class="text-white mt-4 col-sm-6 col-md-4">
                         <button class="btn btn-success fw-normal px-3 live-btn">
                             INTERVIEWS</button>
                         <h5 class="mt-3 fw-light live-btn">Lessons learned from the big guys</h5>
@@ -241,6 +243,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- instagram -->
         <section class="instagram my-5">
             <div class="container py-5">
                 <h2 class="text-success mb-0 mt-2"><span class="text-info">Latest from </span> Instagram</h2>
@@ -250,30 +254,30 @@
                     <hr class="opacity-100 border-info  w-100 d-inline-block">
                     </hr>
                 </div>
-                <div class="img-container position-relative row justify-content-between my-5">
+                <div class="img-container position-relative g-3 row justify-content-between my-5">
 
-                    <a href="index.html" class="col-2 position-relative"><img src="./img/sample-instragram1.jpg"
-                            alt="img">
+                    <a href="index.html" class="col-sm-4 col-md-3 col-lg-2 position-relative"><img
+                            src="./img/sample-instragram1.jpg" alt="img">
                         <i class="bi bi-headset position-absolute fs-3 top-50" style="left: 50%;"></i>
                     </a>
 
-                    <a href="index.html" class="col-2 position-relative"><img src="./img/sample-instragram2.jpg"
-                            alt="img">
+                    <a href="index.html" class="col-sm-4 col-md-3 col-lg-2 position-relative"><img
+                            src="./img/sample-instragram2.jpg" alt="img">
                         <i class="bi bi-headset position-absolute fs-3 top-50" style="left: 50%;"></i>
                     </a>
 
-                    <a href="index.html" class="col-2 position-relative"><img src="./img/sample-instragram3.jpg"
-                            alt="img">
+                    <a href="index.html" class="col-sm-4 col-md-3 col-lg-2  position-relative"><img
+                            src="./img/sample-instragram3.jpg" alt="img">
                         <i class="bi bi-headset position-absolute fs-3 top-50" style="left: 50%;"></i>
                     </a>
 
-                    <a href="index.html" class="col-2 position-relative"><img src="./img/sample-instragram4.jpg"
-                            alt="img">
+                    <a href="index.html" class="col-sm-4 col-md-3 col-lg-2 position-relative"><img
+                            src="./img/sample-instragram4.jpg" alt="img">
                         <i class="bi bi-headset position-absolute fs-3 top-50" style="left: 50%;"></i>
                     </a>
 
-                    <a href="index.html" class="col-2 position-relative"><img src="./img/sample-instragram5.jpg"
-                            alt="img">
+                    <a href="index.html" class="col-sm-4 col-md-3 col-lg-2 position-relative"><img
+                            src="./img/sample-instragram5.jpg" alt="img">
                         <i class="bi bi-headset position-absolute fs-3 top-50" style="left: 50%;"></i>
                     </a>
 
@@ -284,28 +288,60 @@
                 </div>
             </div>
         </section>
-        <section class="week mb-5">
-            <div class="container d-flex justify-content-between  align-items-center ">
-                <img src="./img/sample-sales-cover.jpg" alt="">
-                <div class="text-white px-4">
-                    <h3 >New Stuff Each Week!</h3>
-                    <p>Listen below and order your copy from Amazon, iTunes or your favorite record store. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conseqa untur magni dolores eos qui ratione sequi.</p>
-                    <btn-container class="mt-5 ">
-                        <div class="mt-5 d-flex align-items-center">
-                            <button class="btn btn-outline-primary fw-normal live-btn">
-                                <i class="bi bi-apple "></i> ITUNES</button>
+        <!-- week! -->
+<section class="week">
+    <div class="mb-5 container">
+        <div class="row d-flex  justify-content-between  align-items-center ">
+            <div class="col-10 col-md-4">
+                <img src="./img/sample-sales-cover.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="text-white px-4 col-12 col-md-8 mb-3">
+                <h3 class="live-btn fw-bold ">New Stuff Each Week!</h3>
+                <p class="fw-light live-btn uk-text-justify">Listen below and order your copy from Amazon, iTunes or
+                    your favorite record store. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia conseqa untur magni dolores eos qui ratione sequi.</p>
+                <div class="mt-5 ">
+                    <div class="mt-5 d-flex align-items-center">
+                        <button class="btn btn-outline-primary fw-normal live-btn">
+                            <i class="bi bi-apple "></i> ITUNES</button>
 
-                            <button class="btn btn-outline-primary fw-normal live-btn mx-3">
-                                <i class="bi bi-arrow-up-square"></i> GOOGLE PLAY</button>
+                        <button class="btn btn-outline-primary fw-normal live-btn mx-3">
+                            <i class="bi bi-arrow-up-square"></i> GOOGLE PLAY</button>
 
-                            <button class="btn btn-outline-primary  fw-normal live-btn">
-                                <i class="bi bi-apple"></i> RSS FEED</button>
-                        </div>
-                    </btn-container>
+                        <button class="btn btn-outline-primary  fw-normal live-btn">
+                            <i class="bi bi-apple"></i> RSS FEED</button>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+        
     </main>
+
+    <!-- footer -->
+ <footer class="my-5 text-center">
+        <div class="text-center">
+            <h3 class="text-center">Don't miss our weekly episodes. Subscribe now!</h3>
+            <p class="text-center">A theme with a simple and organized approach to presenting your content with
+                understated charm and undeniable appeal.</p>
+            <div class="d-flex text-center justify-content-center">
+                <input type="email" placeholder="Enter Your Email" class="border-end-0 py-2 px-3 border-success">
+                <input type="button" value="Subscribe"
+                    class="border-start-0 bg-success py-2 text-white live-btn px-3 border-success">
+
+            </div>
+            <div class="icons-container d-flex align-items-center justify-content-center mt-4">
+                <a href="#"><i class="bi bi-facebook px-2  icon-custom"></i></a>
+                <a href="#"><i class="bi bi-google-play px-2  icon-custom"></i></a>
+                <a href="#"><i class="bi bi-twitter px-2  icon-custom"></i></a>
+                <a href="#"><i class="bi bi-cloud px-2  icon-custom"></i></a>
+                <a href="#"><i class="bi bi-youtube px-2  icon-custom"></i></a>
+
+            </div>
+            <p class="text-center mt-2 fw-medium">Masud Rana&copy;Castilo with ♥ in Europe. All Rights Reserved.</p>
+        </div>
+    </footer> 
 
     <!-- ui kits -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit.min.js"></script>
